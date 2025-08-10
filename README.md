@@ -15,7 +15,7 @@ This repository provides the implementation of **L2-LoRA** (L2-LoRA: Layer-Speci
 
 - `src/peft`: Implements `peft.tuners.tuners_utils.BaseTuner.inject_adapter` (Lines 344–353) to enable **selective LoRA updates to specified layers**.
 - `src/transformers`: Includes modified `transformers.trainer.py` ( Line 3266-3349) for layer-specific L2 regularization.
-- `MAIE`: Contains code for **Layer-wise Task-Specific Knowledge Localization** analysis, adapted from [lm-eval v0.4.0](https://github.com/EleutherAI/lm-evaluation-harness/tree/v0.4.0) and [Rank-One Model Editing](https://github.com/kmeng01/rome).
+- `NAIE`: Contains code for **Layer-wise Task-Specific Knowledge Localization** analysis, adapted from [lm-eval v0.4.0](https://github.com/EleutherAI/lm-evaluation-harness/tree/v0.4.0) and [Rank-One Model Editing](https://github.com/kmeng01/rome).
 
 ---
 
